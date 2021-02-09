@@ -76,8 +76,9 @@ function software_repo(){
 	echo -ne "\n\t${greyColour}-rofi${endColour}"
 	echo -ne "\n\t${greyColour}-nautilus${endColour}"
 	echo -ne "\n\t${greyColour}-flameshot${endColour}"
+	echo -ne "\n\t${greyColour}-gnome-terminal${endColour}"
 	sleep 8
-	sudo apt-get update && sudo apt-get install scrub feh compton zsh xclip dunst rofi nautilus flameshot -y
+	sudo apt-get update && sudo apt-get install scrub feh compton zsh xclip dunst rofi nautilus flameshot gnome-terminal -y
 
 }; software_repo
 
@@ -154,6 +155,9 @@ function configs(){
     cd $HOME/Imágenes/fondos/
     wget "https://wallpapercave.com/wp/wp1810627.jpg"
     mv wp1810627.jpg mrrobot.jpg
+    chmod +x $HOME/.config/polybar/launch.sh
+    $HOME/.config/polybar/launch.sh --cuts
+    cp -rf $HOME/prettylinux/compton/compton.conf $HOME/.config/compton/
 }; configs
 
 kill -9 -1
