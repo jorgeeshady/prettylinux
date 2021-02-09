@@ -1,5 +1,5 @@
 #!/bin/bash
-
+#d
 #beautylinux v1.0, Author @sh4dy94 (Jorge Delgado)
 
 #Colours
