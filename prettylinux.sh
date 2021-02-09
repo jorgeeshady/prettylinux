@@ -1,5 +1,5 @@
 #!/bin/bash
-#d
+#3
 #beautylinux v1.0, Author @sh4dy94 (Jorge Delgado)
 
 #Colours
@@ -95,11 +95,11 @@ function bspwmysxhkd(){
 
     mkdir ~/.config/bspwm/scripts
     cd ~/.config/bspwm/
-    wget "https://raw.githubusercontent.com/sh4dy94/prettylinux/main/.config/bspwm/bspwmrc"
+	wget "https://raw.githubusercontent.com/sh4dy94/prettylinux/main/bspwm/bspwmrc"
     chmod u+x ~/.config/bspwm/bspwmrc
     cd ../sxhkd
-    wget "https://raw.githubusercontent.com/sh4dy94/prettylinux/main/.config/sxhkd/sxhkdrc"
-    wget "https://raw.githubusercontent.com/sh4dy94/prettylinux/main/.config/bspwm/scripts/bspwm_resize"
+	wget "https://raw.githubusercontent.com/sh4dy94/prettylinux/main/sxhkd/sxhkdrc"
+    wget "https://raw.githubusercontent.com/sh4dy94/prettylinux/main/bspwm/scripts/bspwm_resize"
     mv bspwm_resize ~/.config/bspwm/scripts/
     chmod +x ~/.config/bspwm/scripts/bspwm_resize
     cd
