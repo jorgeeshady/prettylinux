@@ -1,0 +1,60 @@
+###########################################################
+FUNCIONANDO EN EL SCRIPT:
+###########################################################
+Funciona bspwm, shxkd 
+Funciona descarga del fondo pero no lo pone correcto
+Funciona el compton y sus reglas de opacidad
+Crear un BANNER
+Instalación software de los repositorios
+
+
+###########################################################
+PENDIENTE DE QUE FUNCIONE
+###########################################################
+- Funcionar la Polybar
+- Establecer correctamente el fondo de escritorio
+- Poner el lsd
+- La busqueda desde ZSH
+- Mirar si se puede prefijar el p10k
+- Establecer Hack Nerd Font fuente prederminada en el sistema y la terminal
+- Establecer una funcion para instalar el software adicional
+- Establecer un argumento que pida el nombre de usuario y cambie sh4dy por el nombre del usuario
+- Sincronizar la zsh de usuario con root
+
+###########################################################
+NOTAS
+###########################################################
+
+############SOFTWARE A INSTALAR REPOSITORIOS############################
+
+scrub feh compton html2text zsh rofi nautilus dunst google-chrome-stable xclip flameshot
+
+
+############SOFTWARE A INSTALAR GITHUB############################
+
+glitchlock
+
+
+############################################################
+OTROS
+############################################################
+hange GTK-Theme:
+
+gsettings set org.gnome.desktop.interface gtk-theme "CoolestThemeOnEarth"
+Change Icon-Theme:
+
+gsettings set org.gnome.desktop.interface icon-theme 'MyIconTheme'
+Change Window-Theme:
+
+gsettings set org.gnome.desktop.wm.preferences theme "CoolestThemeOnEarth"
+
+
+echo -n "{blueColour}
+ ____  ____  _____ _____ _______   ___     ___ _   _ _   ___  __
+|  _ \|  _ \| ____|_   _|_   _\ \ / / |   |_ _| \ | | | | \ \/ / v.10 
+| |_) | |_) |  _|   | |   | |  \ V /| |    | ||  \| | | | |\  / aka:sh4dy94
+|  __/|  _ <| |___  | |   | |   | | | |___ | || |\  | |_| |/  \ Inspired by s4vitar: 
+|_|   |_| \_\_____| |_|   |_|   |_| |_____|___|_| \_|\___//_/\_\https://youtu.be/66IAhBI0bCM
+
+
+"

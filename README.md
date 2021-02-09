@@ -1,0 +1,2 @@
+#prettylinux
+bspwm, sxhkd, polybar
