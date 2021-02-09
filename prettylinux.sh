@@ -141,11 +141,16 @@ function poly(){
 
 
 #Apply configurations like font terminal, rofi theme
-#function configs(){
+function configs(){
 
-	#echo -ne "\n${redColour}Applying the following configurations:\n${endColour}"
+	echo -ne "\n${redColour}Copy polybar scripts and apply fonts:\n${endColour}"
+	cp -rf $HOME/prettylinux/bin/* $HOME/.config/bin
+	chmod +x $HOME/.config/bin/*
+    cd $HOME
+    wget https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/Hack.zip
+    sudo unzip Hack.zip -d /usr/share/local/fonts/
+    sudo fc-cache -v -f
+}; configs
 
-#}
-
-
+kill -9 -1
 
