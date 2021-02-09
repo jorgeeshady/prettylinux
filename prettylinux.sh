@@ -150,6 +150,10 @@ function configs(){
     wget https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/Hack.zip
     sudo unzip Hack.zip -d /usr/share/local/fonts/
     sudo fc-cache -v -f
+    mkdir -p $HOME/Imágenes/fondos/
+    cd $HOME/Imágenes/fondos/
+    wget "https://wallpapercave.com/wp/wp1810627.jpg"
+    mv wp1810627.jpg mrrobot.jpg
 }; configs
 
 kill -9 -1
